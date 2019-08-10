@@ -1,3 +1,3 @@
 # commits
 
-just for log some things
+git 이란 무엇인가?
