@@ -1,3 +1,4 @@
+<#include "/sample/control.ftl" />
 <!doctype html>
 <html lang="en">
 <head>
@@ -23,16 +24,18 @@
 <#include "/common/nav.ftl" />
 
 
+<div class="container">
+    <div class="card mt-3 ">
+        <div class="card-body">
+            <@printFoodList foodList />
+        </div>
+    </div>
 
-<div class="card mt-3 mx-3">
-    <div class="card-body">
-        <ul>
-            <li>테스트 중입니다.</li>
-            <li>잘 나오는가요?</li>
-            <li>소고기</li>
-            <li>먹고 싶네요</li>
-            <li>내일은 소고기?</li>
-        </ul>
+
+    <div class="card mt-2 ">
+        <div class="card-body">
+            button list
+        </div>
     </div>
 </div>
 

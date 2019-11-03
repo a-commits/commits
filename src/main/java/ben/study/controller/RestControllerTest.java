@@ -14,8 +14,11 @@ public class RestControllerTest {
     @GetMapping("user")
     public User getUser(){
         User user = new User();
-        user.setName("ben");
-        user.setAddress("borame");
+        user.setUserName("ben");
+        user.setUserEmail("ben@email.com");
+
+
+
         return user;
     }
 }
