@@ -10,7 +10,7 @@
 
   <properties>
       <spring_version>4.3.25.RELEASE</spring_version>
-      <jackson_version>2.10.0</jackson_version>
+      <jackson_version>2.12.6.1</jackson_version>
   </properties>
 
 
